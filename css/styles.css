@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url("../imports/deco/1536782782-bloggif-5b997114e37b5.gif");
+    font-family: "Comic sans ms";
+}
+
+body.avertissement{
+    background-image: url("https://c.tenor.com/GeXLwUGdOjAAAAAC/danger-zone.gif");
+}
+
+.avertissement p{
+    text-align: center;
+    color: lime;
+}
+
+ul{
+    padding: 0;
+}
+
+a div h2{
+    text-align: center;
+}
+
+.top{
+    transition: .3s;
+}
+
+.top:hover{
+    transform: scale(1.2);
+}
+
+h1{
+    text-align: center;
+    color: rgb(60, 255, 0);
+    background-image: url("../imports/deco/epileptik.gif");
+    text-shadow: 2px 2px 3px red;
+    font-size: 3em;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+div.gallerie{
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 0px;
+} 
+
+div.gallerie img.item-gallerie{
+    display: inline-block;
+    text-align: center;
+}
+
+img.item-gallerie{
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    opacity: 95%;
+    transition: .3s;
+}
+
+img.item-gallerie:hover{
+    transform: scale(1.1) rotate(10deg);
+}
+
+div.link{
+    margin: 0px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+li.others{
+    padding-left: 80px;
+}
+
+a.link{
+    background-color: red;
+    opacity: 95%;
+}
+
+a:hover{
+    color: yellow;
+}
+
+div.content{
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+div.end p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 1px 1px 1px rgba(1, 1, 1, 0);
+    text-decoration: none;
+}
+
+div.end p:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px red;
+}
+
+.top{
+    background-image: url("https://image.noelshack.com/fichiers/2016/52/1482755511-1414393888918.gif");
+    height: 200px;
+}
+
+img.danger-right, img.danger-left{
+    width: 70px;
+    height: 70px;
+}
+
+.contener2{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 255, 0);
+}
+
+.avertissement{
+    padding-top: 100px;
+}
