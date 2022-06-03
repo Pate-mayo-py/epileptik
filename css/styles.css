@@ -3,12 +3,13 @@
 }
 
 body{
-    background-image: url("../imports/deco/1536782782-bloggif-5b997114e37b5.gif");
+    background-image: url("../imports/deco/fond.gif");
     font-family: "Comic sans ms";
+    scrollbar-color: blue lime;
 }
 
 body.avertissement{
-    background-image: url("https://c.tenor.com/GeXLwUGdOjAAAAAC/danger-zone.gif");
+    background-image: url("../imports/deco/danger-fond.gif");
 }
 
 .avertissement p{
@@ -45,6 +46,10 @@ img{
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
+}
+
+.end{
+    padding-bottom: 150px;
 }
 
 div.gallerie{
@@ -113,7 +118,7 @@ div.end p:hover{
 }
 
 .top{
-    background-image: url("https://image.noelshack.com/fichiers/2016/52/1482755511-1414393888918.gif");
+    background-image: url("../imports/deco/crade.gif");
     height: 200px;
 }
 
@@ -131,4 +136,24 @@ img.danger-right, img.danger-left{
 
 .avertissement{
     padding-top: 100px;
+}
+
+audio{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.radio{
+    background-image: url("../imports/deco/external-content.duckduckgo.com.gif");
+    position: fixed;
+    bottom: 5px;
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    color: lime;
+    text-shadow: 1px 1px rgb(38, 0, 255);
+    font-size: smaller;
+    height: 120px;
+    background-size: 225px;
 }
