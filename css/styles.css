@@ -157,3 +157,21 @@ audio{
     height: 120px;
     background-size: 225px;
 }
+
+.tractoword{
+    display: grid;
+    justify-items: center;
+    padding-left: 35%;
+}
+
+h3.tractoword{
+    color: lime;
+    rotate: -15deg;
+    text-shadow: 1px 1px 1px blue;
+    animation: epileptik 1s linear infinite;
+}
+
+@keyframes epileptik {  
+    50% { color: red; }
+}
+  
