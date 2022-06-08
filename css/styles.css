@@ -1,15 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
 *{
     margin: 0;
 }
 
 body{
     background-image: url("../imports/deco/fond.gif");
-    font-family: "Comic sans ms";
+    font-family: 'IM Fell English', serif;
     scrollbar-color: blue lime;
 }
 
 body.avertissement{
     background-image: url("../imports/deco/danger-fond.gif");
+}
+
+body.pokedex{
+    background-image: url("../imports/deco/fond\ pokedex.gif")
+}
+
+body.complot{
+    background-image: url("../imports/deco/illuminati\ 2.gif");
+    background-size: 150px;
+}
+
+body.philosophik{
+    background-image: url("../imports/deco/philosophie\ fond\ 1.gif");
+    background-size: 150px;
 }
 
 .avertissement p{
@@ -174,4 +189,51 @@ h3.tractoword{
 @keyframes epileptik {  
     50% { color: red; }
 }
-  
+
+body.pokedex{
+    background-image: url("../imports/deco/fond\ pokedex.gif");
+    background-size: 200px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 150px;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.article{
+    background-color: rgba(21, 255, 0, 0.699);
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+}
+
+img.complot-image{
+    padding-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.phrases-contener{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%
+}
+
+.phrases{
+    background-image: url("../imports/deco/280px-Raphael_Ecole_d\'Athenes_detail_Diogene.jpg");
+    margin: 20px;
+    width: 100%;
+    min-height: 100px;
+    color: rgb(0, 255, 0);
+    text-shadow: 2px 2px 1px red;
+}
+
+h4{
+    margin-top: 20px;
+    text-decoration: underline;
+}
